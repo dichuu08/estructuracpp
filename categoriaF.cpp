@@ -16,6 +16,7 @@ void mostrarCategorias();
 void eliminarCategoria(int id);
 void editarCategoria(int id, char nombre[]);
 bool existeCategoria(int id);
+void reordenarCategoria(int i);
 
 
 void agregarCategoria(int id, char nombre[]){
@@ -46,9 +47,27 @@ bool existeCategoria(int id){
             existe = true;
             break;
         }
-    }
+    } i++;
     return existe;
 }
 
+void eliminarCategoria(int id){
+    if (existeCategoria(id))
+    {
+        del
+
+    }else
+    {
+        cout<<"***ERROR: EL CÓDIGO INGRESADO NO EXISTE. ***";
+    }  
+}
+
+void reordenarCategoria(int i){
+     for (int i = 0; i < pos; i++)
+     {
+        /* code */
+     }
+     
+}
 
     
